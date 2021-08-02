@@ -1,0 +1,456 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 70px;
+}
+
+#head h1 {
+    margin-left: 5%;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    align-self: center;
+    cursor: pointer;
+    letter-spacing: 2.5px;
+}
+
+#headright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5%;
+    width: 550px;
+
+}
+
+#headright div {
+    display: flex;
+    width: 280px;
+}
+
+#headright input {
+    padding: 5px 4px;
+    border-radius: 5px;
+    margin-right: 5%;
+    outline: none;
+}
+
+#search {
+    color: green;
+    background-color: transparent;
+    border: 2px solid green;
+    text-decoration: none;
+    padding: 3px 4px;
+    border-radius: 5px;
+}
+
+#main {
+    width: 60%;
+    margin: auto;
+}
+
+#heading1 {
+    font-weight: 500;
+    margin: 15px 0px;
+    font-size: 2.6rem;
+    letter-spacing: 2px;
+}
+
+#heading2 {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+
+#addnote {
+    border: 1.5px solid grey;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5%;
+    padding-right: 1%;
+}
+
+#addnote h4 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#addnote textarea {
+    height: 95px;
+    max-height: 170px;
+    max-width: 990px;
+}
+
+#addnote a {
+    color: white;
+    background-color: rgb(40, 155, 238);
+    text-decoration: none;
+    width: 65px;
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin: 8px 0px;
+}
+
+#divlist {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: left;
+    border-radius: 5px;
+}
+
+.nt {
+    width: 29%;
+    height: fit-content;
+    border-radius: 6px;
+    border: 1.5px solid grey;
+    padding: 15px;
+    margin: 4px;
+    overflow: auto;
+    position: relative;
+}
+
+.img {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.red {
+    background-color: red;
+}
+
+.txt3 {
+    color: white;
+    background-color: rgb(40, 155, 238);
+    padding: 5px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#users {
+    display: none;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-size: 1.1rem;
+    letter-spacing: 1.9px;
+    padding: 5px 12px;
+    border: 2px solid white;
+    margin: 14px 0px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#users img {
+    width: 15px;
+    height: 15px;
+    filter: invert(100%);
+}
+
+.create {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border: 1px solid white;
+}
+
+#mode {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+}
+
+@media (min-width:1100px) and (max-width:1615px) {
+    #divlist {
+        flex-direction: column;
+    }
+
+    .nt {
+        width: 95%;
+    }
+}
+
+@media (min-width:830px) and (max-width:1100px) {
+    #main {
+        width: 70%;
+    }
+
+    #divlist {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nt {
+        width: 93%;
+    }
+
+    #users {
+        display: none;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #input {
+        margin-left: 112%;
+    }
+}
+
+@media (min-width:700px) and (max-width:830px) {
+    #main {
+        width: 70%;
+    }
+
+    #headright {
+        width: 380px;
+    }
+
+    #divlist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nt {
+        width: 90%;
+    }
+
+    #users {
+        display: none;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #input {
+        margin-left: 60%;
+    }
+}
+
+@media (min-width:500px) and (max-width:700px) {
+    #main {
+        width: 75%;
+    }
+
+    #headright {
+        width: 240px;
+    }
+
+    #divlist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nt {
+        width: 90%;
+    }
+
+    #users {
+        display: none;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #input {
+        margin-left: 40%;
+        width: 65%;
+    }
+
+    #heading1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:300px) and (max-width:500px) {
+    #main {
+        width: 90%;
+    }
+
+    #headright {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100vw;
+    }
+
+    #divlist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nt {
+        width: 85%;
+    }
+
+    #users {
+        display: none;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #heading1 {
+        font-size: 1.8rem;
+    }
+
+    #head {
+        flex-direction: column;
+        height: 110px;
+    }
+
+    #mode {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    #input {
+        margin: auto;
+        margin-bottom: 6px;
+        position: absolute;
+        top: 70px;
+        left: 50%;
+        transform: translateX(-45%);
+    }
+}
+
+@media (min-width:250px) and (max-width:300px) {
+    #main {
+        width: 92%;
+    }
+
+    #headright {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100vw;
+    }
+
+    #divlist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nt {
+        width: 78%;
+    }
+
+    #users {
+        display: none;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #heading1 {
+        font-size: 1.6rem;
+    }
+
+    #heading2 {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+    }
+
+    #head {
+        flex-direction: column;
+        height: 110px;
+    }
+
+    #mode {
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        width: 25px;
+        height: 25px;
+    }
+
+    #input {
+        margin: auto;
+        margin-bottom: 6px;
+        position: absolute;
+        top: 70px;
+        left: 50%;
+        transform: translateX(-45%);
+        width: 50%;
+    }
+}
+
+@media (min-width:150px) and (max-width:250px) {
+    #main {
+        width: 96%;
+    }
+
+    #headright {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100vw;
+    }
+
+    #divlist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nt {
+        width: 80%;
+    }
+
+    #users {
+        display: none;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #heading1 {
+        font-size: 1.8rem;
+    }
+
+    #head {
+        flex-direction: column;
+        height: 110px;
+    }
+
+    #head h1 {
+        font-size: 1.5rem;
+    }
+
+    #mode {
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        width: 25px;
+        height: 25px;
+    }
+
+    #input {
+        margin: auto;
+        margin-bottom: 6px;
+        position: absolute;
+        top: 70px;
+        left: 50%;
+        transform: translateX(-45%);
+        width: 44%;
+    }
+}
