@@ -84,5 +84,4 @@ Javascript, HTML, CSS...
 
 ## Screenshots
 
-![App Screenshot](https://photos.app.goo.gl/xRk6JaUxGcbdmkdu9)
-![App Screenshot](https://photos.app.goo.gl/xRk6JaUxGcbdmkdu9)
+
