@@ -83,7 +83,8 @@ Javascript, HTML, CSS...
 
 
 ## Screenshots
+![Screenshot 2022-09-17 152503](https://user-images.githubusercontent.com/64706066/190852066-ae493519-c368-43df-92be-cb1cee4fcd42.png)
+![Screenshot 2022-09-17 152533](https://user-images.githubusercontent.com/64706066/190852068-ee294c38-afc0-4401-957f-9d148002924e.png)
+![Screenshot 2022-09-17 152449](https://user-images.githubusercontent.com/64706066/190852070-4bc964c1-c75d-4000-ab41-4689cb752e48.png)
 
-![Alt text](Screenshot 2022-09-17 152533.png)
-![Alt text](Screenshot 2022-09-17 152503.png)
-![Alt text](Screenshot 2022-09-17 152449.png)
+
