@@ -84,4 +84,6 @@ Javascript, HTML, CSS...
 
 ## Screenshots
 
-
+![Alt text](Screenshot 2022-09-17 152533.png)
+![Alt text](Screenshot 2022-09-17 152503.png)
+![Alt text](Screenshot 2022-09-17 152449.png)
